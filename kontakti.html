@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Свържете се с TechNova Studio за вашия нов уебсайт или софтуерен проект. Работно време, контакти и социални мрежи.">
+    <title>Контакти - TechNova Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1>TechNova Studio</h1>
+    <p>Професионални уеб решения за модерния свят</p>
+</header>
+
+<nav class="menu">
+    <a href="index.html">Начало</a>
+    <a href="za-nas.html">За нас</a>
+    <a href="uslugi.html">Услуги</a>
+    <a class="active" href="kontakti.html">Контакти</a>
+</nav>
+
+<main class="container">
+    <section class="hero">
+        <h2>Контакти</h2>
+        <img src="img/contact.svg" alt="Контактна форма - TechNova Studio">
+        <p>
+            Свържете се с нас за идея, проект или консултация.
+            <br>
+            Ще ви помогнем да превърнете идеята си в реален сайт.
+        </p>
+    </section>
+
+    <hr>
+
+    <section class="info-box">
+        <h3>Данни за контакт</h3>
+        <ul>
+            <li><strong>Имейл:</strong> info@technova-studio.bg</li>
+            <li><strong>Телефон:</strong> +359 888 123 456</li>
+            <li><strong>Град:</strong> Варна, България</li>
+        </ul>
+    </section>
+
+    <section class="info-box">
+        <h3>Работно време</h3>
+        <p>
+            Понеделник - Петък: <b>09:00 - 18:00</b><br>
+            Събота и Неделя: <i>почивни дни</i>
+        </p>
+        <p>
+            Последвайте ни:
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a> |
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+        </p>
+    </section>
+
+    <section class="info-box">
+        <h3>Контактна форма</h3>
+
+        <form action="https://formspree.io/f/mvznyawg" method="POST">
+            <p class="form-note">* Всички полета са задължителни</p>
+
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" placeholder="Вашето име" required>
+
+            <label for="email">Имейл:</label>
+            <input type="email" id="email" name="email" placeholder="Вашият имейл" required>
+
+            <label for="message">Съобщение:</label>
+            <textarea id="message" name="message" placeholder="Напишете съобщението си..." required></textarea>
+
+            <input type="hidden" name="_subject" value="Ново съобщение от сайта TechNova Studio">
+            <input type="hidden" name="_next" value="thanks.html">
+
+            <button type="submit">Изпрати</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 TechNova Studio | Уеб решения за малък бизнес</p>
+</footer>
+
+</body>
+</html>
